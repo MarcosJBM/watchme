@@ -1,5 +1,5 @@
 {
-  "name": "01-github-explorer",
+  "name": "movie-list",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,7 +7,8 @@
     "dev": "webpack serve",
     "server": "json-server server.json --port 3333",
     "build": "cross-env NODE_ENV=production webpack",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "pretty": "prettier --write ."
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -33,6 +34,7 @@
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
     "node-sass": "^7.0.0",
+    "prettier": "^2.6.2",
     "react-app-polyfill": "^2.0.0",
     "react-refresh": "^0.9.0",
     "sass-loader": "^12.4.0",
