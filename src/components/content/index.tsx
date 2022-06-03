@@ -2,11 +2,9 @@ import { useState, useEffect } from 'react';
 
 import { MovieCard } from '..';
 
-import { GenreResponseProps, MovieProps } from '../../App';
-
 import { api } from '../../services';
 
-import { ContentProps } from '../../types';
+import { ContentProps, GenreResponseProps, MovieProps } from '../../types';
 
 import '../../styles/content.scss';
 

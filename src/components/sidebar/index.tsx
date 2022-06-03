@@ -2,11 +2,9 @@ import { useState, useEffect } from 'react';
 
 import { Button } from '..';
 
-import { GenreResponseProps } from '../../App';
-
 import { api } from '../../services';
 
-import { SideBarProps } from '../../types';
+import { GenreResponseProps, SideBarProps } from '../../types';
 
 import '../../styles/sidebar.scss';
 
