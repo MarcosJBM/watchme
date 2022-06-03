@@ -6,11 +6,9 @@ import { GenreResponseProps, MovieProps } from '../../App';
 
 import { api } from '../../services';
 
-import '../../styles/content.scss';
+import { ContentProps } from '../../types';
 
-interface ContentProps {
-  selectedGenreId: number;
-}
+import '../../styles/content.scss';
 
 export function Content({ selectedGenreId }: ContentProps) {
   const [movies, setMovies] = useState<MovieProps[]>([]);

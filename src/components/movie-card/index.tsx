@@ -1,13 +1,8 @@
 import { Star, Clock } from 'react-feather';
 
-import '../../styles/movie-card.scss';
+import { MovieCardProps } from '../../types';
 
-interface MovieCardProps {
-  title: string;
-  poster: string;
-  rating: string;
-  runtime: string;
-}
+import '../../styles/movie-card.scss';
 
 export function MovieCard(props: MovieCardProps) {
   return (

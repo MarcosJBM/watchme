@@ -1,14 +1,8 @@
-import { ButtonHTMLAttributes } from 'react';
-
 import { Icon } from '../icon';
 
-import '../../styles/button.scss';
+import { ButtonProps } from '../../types';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  title: string;
-  iconName: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
-  selected: boolean;
-}
+import '../../styles/button.scss';
 
 export function Button({ iconName, title, selected, ...props }: ButtonProps) {
   return (

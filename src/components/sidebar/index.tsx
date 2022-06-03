@@ -6,12 +6,9 @@ import { GenreResponseProps } from '../../App';
 
 import { api } from '../../services';
 
-import '../../styles/sidebar.scss';
+import { SideBarProps } from '../../types';
 
-interface SideBarProps {
-  selectedGenreId: number;
-  onChangeGenre: (genreId: number) => void;
-}
+import '../../styles/sidebar.scss';
 
 export function SideBar({ onChangeGenre, selectedGenreId }: SideBarProps) {
   const [genres, setGenres] = useState<GenreResponseProps[]>([]);
