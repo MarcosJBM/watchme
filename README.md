@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src='.github/logo.svg' alt='Nome do projeto'/>
+  <img src='.github/logo.svg' alt='Watchme'/>
 </div>
 
 </br>
@@ -13,7 +13,7 @@
 </br>
 
 <div align="center">
-  <img src=".github/watchme-home.png" alt="Capa do projeto Feedback Widget" width="780px" />
+  <img src=".github/watchme-home.png" alt="Capa do projeto Watchme" width="780px" />
 </div>
 
 <a id='about'></a>
