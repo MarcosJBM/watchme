@@ -1,10 +1,11 @@
 import { Star, Clock } from 'react-feather';
+import { memo } from 'react';
 
 import { MovieCardProps } from '../../types';
 
 import '../../styles/movie-card.scss';
 
-export function MovieCard(props: MovieCardProps) {
+function MovieCardComponent(props: MovieCardProps) {
   return (
     <div className='movie-card'>
       <img src={props.poster} alt={props.title} />
@@ -26,3 +27,5 @@ export function MovieCard(props: MovieCardProps) {
     </div>
   );
 }
+
+export const MovieCard = memo(MovieCardComponent);
