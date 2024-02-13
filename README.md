@@ -1,35 +1,16 @@
-<div align='center'>
-  <img src='.github/logo.svg' alt='Watchme'/>
-</div>
-
-</br>
-
-<div align='center'>
-  <a href='#about'>📖 Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href='#technologies'>🔩 Tecnologias</a>
-</div>
-
-</br>
-
 <div align="center">
-  <img src=".github/watchme-home.png" alt="Capa do projeto Watchme" width="780px" />
+  <img src=".github/watchme-home.png" alt="Project cover" width="720" />
 </div>
 
-<a id='about'></a>
+# 📖 About
 
-# 📖 Sobre o Projeto
+**WatchMe** is a web application, created to be a film catalog.
 
-O **watchme** é uma aplicação web, criada para ser um catálogo de filmes.
+This project is part of a series of optional challenges on [Rocketseat's](https://www.rocketseat.com.br/) Ignite course, React trail.
 
-Está aplicação faz parte de uma série de desafios **complementares** a serem concluídos no curso **Ignite - Trilha ReactJS** da Rocketseat, esses desafios não são obrigatórios, porém é interessante realizá-los.
+# 🔩 Technologies
 
-<a id='technologies'></a>
-
-# 🔩 Tecnologias
-
-Estas foram as principais tecnologias utilizadas.
-
-- [ReactJS](https://pt-br.reactjs.org/)
+- [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Babel](https://babeljs.io/)
 - [Webpack](https://webpack.js.org/)
